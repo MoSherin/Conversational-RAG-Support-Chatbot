@@ -1,0 +1,49 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda-env/
+
+# LangChain / ChromaDB
+chroma_db/
+chroma_db_*/
+*.sqlite3
+
+# Model weights and Hugging Face cache
+models/
+model_cache/
+.cache/
+.cache/huggingface/
+huggingface_cache/
+*.safetensors
+*.gguf
+*.bin
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

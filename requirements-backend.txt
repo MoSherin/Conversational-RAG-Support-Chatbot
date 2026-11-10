@@ -1,0 +1,12 @@
+langchain
+langchain-classic
+langchain-community
+langchain-chroma
+langchain-text-splitters
+langgraph
+sentence-transformers
+fastapi
+uvicorn[standard]
+python-dotenv
+httpx
+pymupdf

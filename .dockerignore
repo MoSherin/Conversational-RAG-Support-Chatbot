@@ -1,0 +1,12 @@
+.git
+.env
+.venv
+__pycache__
+**/__pycache__
+*.py[cod]
+chroma_db
+data
+tests
+.vscode
+magnify_rag_eval_complete.jsonl
+evaluate_langsmith.py
